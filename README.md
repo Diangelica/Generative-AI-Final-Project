@@ -1,1 +1,1 @@
-# Generative-AI-Final-Project
+# Generative AI Final Project
