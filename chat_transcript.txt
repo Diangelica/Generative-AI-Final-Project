@@ -1,0 +1,51 @@
+User: Write a python code that performs the following tasks:
+1. Identify the columns of a data frame with missing values.
+2. Replace the missing values thus identified with mean value of the column.
+3. Deletes the duplicate entries from the data frame.
+
+Assistant: (Provides code with explanation using pandas)
+
+User: Write a python code that identifies the top 5 attributes with highest correlation with the target attribute in a data frame.
+
+Assistant: (Provides code using .corr(), .abs(), and .sort_values())
+
+User: Write a python code that counts the number of entries in a dataframe with each unique value of a specific attribute.
+
+Assistant: (Provides code using value_counts())
+
+User: Write a python code that creates a Seaborn box plot between a source and target attributes of a dataframe.
+
+Assistant: (Provides code using seaborn.boxplot)
+
+User: Write a python code that creates a regression plot between a source attribute and a target attribute.
+
+Assistant: (Provides code using seaborn.regplot)
+
+User: Write a python code to fit a linear regression model on a target variable on basis of a source variable. Calculate the R^2 values and MSE values for this model.
+
+Assistant: (Provides code using sklearn.linear_model.LinearRegression)
+
+User: Write a python code to fit a linear regression model on a target variable on basis of a set of source variables. Calculate the R^2 values and MSE values for this model.
+
+Assistant: (Provides code using multiple features in sklearn)
+
+User: Write a python code that can perform the following tasks.
+1. Create a pipeline with standard scalar, second degree polynomial features and linear regression model.
+2. Fit this pipeline for a target variable using a set of source attributes from a dataframe.
+3. Evaluate the R^2 and MSE values for the trained model.
+
+Assistant: (Provides code using sklearn.pipeline with StandardScaler, PolynomialFeatures, and LinearRegression)
+
+User: Write a python code that can perform the following tasks.
+1. Assuming that a subset of the attributes of a data frame are source attributes and one of the attributes is a target attribute, split the data into training and testing data assuming the testing data to be 20%.
+2. Create and fit a Ridge regression model using the training data, setting the regularization parameter to 0.1.
+3. Calculate the MSE and R^2 values for the Ridge Regression model using the testing data.
+
+Assistant: (Provides code using Ridge, train_test_split, mean_squared_error, and r2_score)
+
+User: Write a python code that can perform the following tasks.
+1. Assuming that a subset of the attributes of a data frame are source attributes and one of the attributes is a target attribute, split the data into training and testing data assuming the testing data to be 20%.
+2. Apply second degree polynomial scaling to the training and testing data.
+3. Create and fit a Ridge regression model using the training data, setting the regularization parameter to 0.1.
+4. Calculate the MSE and R^2 values for the Ridge Regression model using the testing data.
+
